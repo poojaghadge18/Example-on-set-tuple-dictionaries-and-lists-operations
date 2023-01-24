@@ -1,0 +1,67 @@
+#lists
+
+list1=[1,2,3,4,5]
+list2=[6,7,8,9,10]
+
+#concatenation
+list_concat=list1+list2
+print("concatenation list:",list_concat)
+
+#append item to list
+list1.append(27)
+print("first list after 27 is append:",list1)
+
+#update item in list
+list2[0]=27
+print("second list after first element is updated:",list2)
+
+#remove item from list
+list2.remove(11)
+print("second list after last element is removed:",list2)
+
+#tuples
+
+tup1=(1,2,3,4)
+tup2=(5,6,7,8)
+
+#slicing
+print("The first 3 element of tuple1 are:",tuple[0:3])
+
+#conncatenation
+concat_tup=tup1+tup2
+print("The concatenation tuple are:",concat_tup)
+
+#repetation
+rep_tup1=tup1+5
+print("The first tuple repetation 5 items is:",rep_tup1)
+
+#dictionaries
+dict1={1:"red",2:"blue",3:"green",4:"yellow}
+       print(dict1)
+       
+#Update
+dic[1]="manroon"
+print("Updated dict1 is:", dict)
+
+#delete element
+del dict1[3]
+print("Updated dict is:",dict)
+       
+#pop element
+popped=dict1.pop(4)
+print("Updated dict1 is:",poped)
+       
+#set
+myset={"Data","data1",0,0,"Task"}
+print(myset)
+       
+#adding element
+       print("my set before adding element:",myset)
+       myset.add(55)
+       print("my set after adding element:",myset)
+       
+#deleting element
+       print("my set before deletion of element:",myset)
+       myset.remove(55)
+       print("my set after deletion of element:",myset)
+       
