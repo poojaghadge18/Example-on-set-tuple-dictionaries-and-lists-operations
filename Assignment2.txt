@@ -7,17 +7,25 @@ list2=[6,7,8,9,10]
 list_concat=list1+list2
 print("concatenation list:",list_concat)
 
+out put-> concatenation list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 #append item to list
 list1.append(27)
 print("first list after 27 is append:",list1)
+
+out put->first list after 27 is append: [1, 2, 3, 4, 5, 27]
 
 #update item in list
 list2[0]=27
 print("second list after first element is updated:",list2)
 
+out put-> second list after first element is updated: [27, 7, 8, 9, 10]
+
 #remove item from list
 list2.remove(11)
 print("second list after last element is removed:",list2)
+
+out put-> second list after last element is removed: 11
 
 #tuples
 
@@ -31,21 +39,30 @@ print("The first 3 element of tuple1 are:",tuple[0:3])
 concat_tup=tup1+tup2
 print("The concatenation tuple are:",concat_tup)
 
+out put-> The concatenation tuple are: (1, 2, 3, 4, 5, 6, 7, 8)
+
 #repetation
 rep_tup1=tup1+5
 print("The first tuple repetation 5 items is:",rep_tup1)
 
 #dictionaries
 dict1={1:"red",2:"blue",3:"green",4:"yellow}
-       print(dict1)
+print(dict1)
        
+out put-> {1: 'red', 2: 'blue', 3: 'green', 4: 'yellow'}
+              
 #Update
 dic[1]="manroon"
 print("Updated dict1 is:", dict)
 
+
+
+
 #delete element
 del dict1[3]
 print("Updated dict is:",dict)
+
+out put-> Updated dict is: <class 'dict'>
        
 #pop element
 popped=dict1.pop(4)
@@ -54,14 +71,22 @@ print("Updated dict1 is:",poped)
 #set
 myset={"Data","data1",0,0,"Task"}
 print(myset)
+
+out put-> Updated dict is: <class 'dict'>
        
 #adding element
        print("my set before adding element:",myset)
        myset.add(55)
        print("my set after adding element:",myset)
        
+out put-> my set before adding element: {'Data', 0, 'Task', 'data1'}
+          my set after adding element: {'Data', 0, 'Task', 'data1', 55}
+
+       
 #deleting element
        print("my set before deletion of element:",myset)
        myset.remove(55)
        print("my set after deletion of element:",myset)
        
+out put-> my set before deletion of element: {'Data', 0, 'Task', 'data1', 55}
+                 my set after deletion of element: {'Data', 0, 'Task', 'data1'}
